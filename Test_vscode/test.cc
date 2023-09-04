@@ -1,6 +1,6 @@
 #include <iostream>
 #include <set>
-
+#include <unordered_set>
 using namespace std;
 
 void Test()
@@ -18,10 +18,23 @@ void Test()
     }
     cout << endl;
 }
-
+void Test2()
+{
+    unordered_set<int> us;
+    us.insert(3);
+    us.insert(1);
+    us.insert(2);
+    us.insert(3);
+    us.insert(0);
+    for(auto e : us)
+    {
+        cout << e << " ";
+    }
+    cout << endl;
+}
 int main()
 {
-    Test();
+    Test2();
     // cout << "hello vscode" << endl;
     // cout << "hello vscode" << endl;
     // cout << "hello vscode" << endl;
