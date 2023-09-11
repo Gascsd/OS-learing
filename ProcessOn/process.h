@@ -3,5 +3,6 @@
 #include <string.h>
 #include <unistd.h>
 #define NUM 101
+#define NUM 101
 #define STYLE '#'
 void ProcessOn();

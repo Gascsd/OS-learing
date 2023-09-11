@@ -35,10 +35,10 @@ void Test2()
 int main()
 {
     Test2();
-    // cout << "hello vscode" << endl;
-    // cout << "hello vscode" << endl;
-    // cout << "hello vscode" << endl;
-    // cout << "hello vscode" << endl;
-    // cout << "hello vscode" << endl;
+    cout << "hello vscode" << endl;
+    cout << "hello vscode" << endl;
+    cout << "hello vscode" << endl;
+    cout << "hello vscode" << endl;
+    cout << "hello vscode" << endl;
     return 0;
 }
