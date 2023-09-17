@@ -12,9 +12,9 @@ void ProcessOn() //函数的定义
     while(cnt <= 100)
     {
         printf("[%-100s][%-3d%%][%c]\r", bar, cnt, ch[cnt % 4]);
-        fflush(stdout);
+        //fflush(stdout);
         bar[cnt++] = STYLE;
-        usleep(50000);
+        //usleep(50000);
     }
     printf("\n");
 }
