@@ -43,9 +43,27 @@ void test1()
   cout << s1 << endl;
 }
 
+class StackOnly
+{
+public:
+  static StackOnly CreateObj()
+  {
+      return StackOnly();
+  }
+private:
+    StackOnly(){}
+    StackOnly(const StackOnly&) = delete;
+};
+void test2()
+{
+    static StackOnly obj = StackOnly::CreateObj();
+
+}
+
+
 int main(){
   //test();
-  test1();
+  test2();
   return 0;
 }
 

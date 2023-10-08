@@ -1,6 +1,7 @@
 {
     "editor.insertSpaces": true,
     "files.associations": {
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "vector": "cpp"
     }
 }
